@@ -155,6 +155,5 @@ app.listen(PORT, () => {
   console.log(`🤖 ME Agent SMS Server running on port ${PORT}`);
   console.log(`📱 Twilio number: ${TWILIO_FROM}`);
   console.log(`👤 Marcos number: ${MARCOS_NUMBER}`);
-  console.log(`\nWebhook URL: http://localhost:${PORT}/sms/inbound`);
-  console.log(`\nReady to receive messages!`);
+  console.log(`\n✅ Ready to receive messages!`);
 });
